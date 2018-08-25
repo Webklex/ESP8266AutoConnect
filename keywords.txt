@@ -1,0 +1,33 @@
+#######################################
+# Syntax Coloring Map For SimpleWifiClass
+#######################################
+
+#######################################
+# Library (KEYWORD3)
+#######################################
+
+# WifiAutoConnectToOpenNet	KEYWORD3
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+WifiAutoConnectToOpenNet	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+autoConnect	KEYWORD2
+ping	KEYWORD2
+setDisconnectLed	KEYWORD2
+setConnectingLed	KEYWORD2
+setConnectedLed	KEYWORD2
+setBlinkDelay	KEYWORD2
+setPingHost	KEYWORD2
+setPingPort	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
