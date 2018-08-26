@@ -34,9 +34,9 @@ class ESP8266AutoConnect {
     void setPingHost(String ping_host);
     void setPingPort(int ping_port);
     void errorBlink();
+    void blink(uint8_t led, int int_delay);
   private:
     void disconnect();
-    void blink(uint8_t led, int int_delay);
     void scanAndSort();
     bool connect(const char* test_ssid);
     uint8_t _led_disconnected;
